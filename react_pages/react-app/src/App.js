@@ -1,3 +1,4 @@
+import ContactForm from './ContactForm'; // <-- import the form component
 import logo from './logo.svg';
 import './App.css';
 
@@ -17,6 +18,9 @@ function App() {
         >
           Learn React
         </a>
+
+        {/* your contact form component goes here */}
+        <ContactForm />
       </header>
     </div>
   );
